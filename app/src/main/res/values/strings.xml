@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">+NEWS</string>
+    <string name="email">email</string>
+    <string name="user">Usuário</string>
+    <string name="logo">+NEWS</string>
+    <string name="senha">Senha</string>
+    <string name="remember">Lembrar-me</string>
+    <string name="login">Entrar</string>
+    <string name="bem_vindo">Bem vindo,</string>
+    <string name="nome">Nome</string>
+    <string name="bem_vindo1">Bem Vindo:</string>
+    <string name="info_app">Veja alguns já feitos:</string>
+    <string name="prosseguir">Fazer</string>
+    <string name="fa_a_um_alerta">Criar</string>
+    <string name="t_tulo">Título</string>
+    <string name="descri_o_do_alerta">Descrição</string>
+    <string name="data_do_alerta">Data</string>
+    <string name="autor">Autor</string>
+    <string name="publicar_alerta">Publicar</string>
+    <string name="verAlertas">Ver</string>
+    <string name="facaAlerta">Faça um:</string>
+    <string name="emp_name">Emp Name</string>
+    <string name="loading_data">Loading Data.....</string>
+    <string name="emp_titulo">Emp Titulo</string>
+</resources>

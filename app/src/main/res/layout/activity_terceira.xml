@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#878B8C"
+tools:context=".TerceiraActivity">
+
+<TextView
+    android:id="@+id/FacaAlerta"
+    android:layout_width="281dp"
+    android:layout_height="49dp"
+    android:layout_marginTop="108dp"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:text="@string/fa_a_um_alerta"
+    android:textAlignment="center"
+    android:textAllCaps="true"
+    android:textSize="34sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="TextSizeCheck" />
+
+<EditText
+    android:id="@+id/editTituloAlerta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:autofillHints=""
+    android:ems="10"
+    android:hint="@string/t_tulo"
+    android:inputType="text"
+    android:maxLines="1"
+    android:padding="15dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/FacaAlerta"
+    tools:ignore="MissingConstraints,VisualLintTextFieldSize" />
+
+<EditText
+    android:id="@+id/editDescricao"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="20dp"
+    android:layout_marginTop="20dp"
+    android:autofillHints=""
+    android:ems="10"
+    android:gravity="start"
+    android:hint="@string/descri_o_do_alerta"
+    android:inputType="textMultiLine"
+    android:padding="15dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTituloAlerta"
+    tools:ignore="VisualLintTextFieldSize" />
+
+<EditText
+    android:id="@+id/editDataAlerta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:autofillHints=""
+    android:ems="10"
+    android:hint="@string/data_do_alerta"
+    android:inputType="text"
+    android:maxLength="10"
+    android:padding="15dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editDescricao"
+    tools:ignore="VisualLintTextFieldSize" />
+
+<EditText
+    android:id="@+id/editAutor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="100dp"
+    android:autofillHints=""
+    android:ems="10"
+    android:hint="@string/autor"
+    android:inputType="textPersonName"
+    android:padding="15dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editDataAlerta"
+    tools:ignore="VisualLintTextFieldSize" />
+
+<Button
+    android:id="@+id/btnPubliAlerta"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/publicar_alerta"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editAutor"
+    app:layout_constraintVertical_bias="0.2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Tela3Activity">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
